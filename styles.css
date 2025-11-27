@@ -13,6 +13,16 @@ header {
     border-radius: 10px;
     
 }
+img.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+img.logo-plaza {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
 
 section {
     margin-top: 2rem;
@@ -73,7 +83,19 @@ nav ul li a:hover {
     margin: 0.5rem;
     height: 380px;
 }
-
+.contenedor-alumbrado {
+    background-color: #9ba9fc;
+    border-radius: 20px;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 16px;
+    width: 700px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: inline-table;
+    margin: 0.5rem;
+    height: 180px;
+}
 
 footer {
     
@@ -114,7 +136,105 @@ button {
     align-items: center;
 }
 
-/*#metodos 
-telefono wp
+/* Estilos para el botón de contacto WhatsApp */
+#whatsappBtn {
+    position: fixed;
+    bottom: 90px; /* 60px arriba del botón de ir al inicio */
+    right: 30px;
+    z-index: 101;
+    background: linear-gradient(145deg, #25D366, #128C7E);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-*/
+#whatsappBtn:hover {
+    box-shadow: inset 5px 5px 10px #128C7E,
+                inset -5px -5px 10px #333;
+    transform: translateY(-2px);
+}
+
+#inicioBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 101;
+    background: linear-gradient(145deg, #2d88ff, #0044ff);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #babecc,
+                -5px -5px 10px #ffffff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicioBtn:hover {
+    box-shadow: inset 5px 5px 10px #128C7E,
+                inset -5px -5px 10px #333;
+    transform: translateY(-2px);
+}
+
+#web_evc {
+    position: fixed;
+    bottom: 160px;
+    right: 30px;
+    z-index: 101;
+    background: linear-gradient(145deg, #cfe4ff, #a6bdd3);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #babecc,
+                -5px -5px 10px #ffffff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#web_evc:hover {
+    box-shadow: inset 5px 5px 10px #128C7E,
+                inset -5px -5px 10px #333;
+    transform: translateY(-2px);
+}
+
+#contenedor-carrusel {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4ff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
