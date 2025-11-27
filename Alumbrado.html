@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumbrado Publico</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="Carrousel.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,6 +13,13 @@
         <img src="imagenes\logo evc.png" alt="Logo EVC" width="120" height="80" class="logo">
     </header>
     <section>
+        <div class="reporte">
+        <nav>
+            <ul>
+                <li><a href="https://wa.me/573116431311">Generar Reporte</a></li>
+            </ul>
+        </nav>
+        </div>
         <div class="contenedor-alumbrado">
         <h2>Servicio de Alumbrado Publico</h2>
         <p>El servicio de alumbrado público es esencial para garantizar la seguridad y el bienestar de la comunidad.
@@ -24,16 +32,38 @@
         </div>
     </section>
 
-    <!-- <section>
-        <div class="contenedor-carrusel">
+    <section>
+        <div class="contenedor-carrousel">
         <h2>Galería de Alumbrado Público</h2>
-        <div class="carrusel">
-            <img src="Alumbrado\001.png" alt="Alumbrado Público 1">
-            <img src="Alumbrado\002.png" alt="Alumbrado Público 2">
-            <img src="Alumbrado\003.png" alt="Alumbrado Público 3">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Alumbrado\001.png" alt="Alumbrado Público 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Alumbrado\002.png" alt="Alumbrado Público 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Alumbrado\003.png" alt="Alumbrado Público 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="Alumbrado\004.png" alt="Alumbrado Público 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="Alumbrado\005.png" alt="Alumbrado Público 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="Alumbrado\006.png" alt="Alumbrado Público 6">
+                </div>
+                <div class="carousel-item">
+                    <img src="Alumbrado\007.png" alt="Alumbrado Público 7">
+                </div>
+            </div>
+            <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
         </div>
         </div>
-    </section> -->
+    </section>
     
     
     <footer>
@@ -56,4 +86,5 @@
     <a id="web_evc" href="https://www.empvariascaicedonia.gov.co/" target= "_blank" title="Sitio web EVC" rel="noopener noreferrer">
         <img src="imagenes\web.png" alt="Logo EVC" width="48" height="48" />
     </a>
+
 </html>
