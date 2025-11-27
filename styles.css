@@ -93,19 +93,19 @@ button {
     bottom: 90px; /* 60px arriba del botón de ir al inicio */
     right: 30px;
     z-index: 101;
-    background: linear-gradient(145deg, #25D366, #128C7E);
+    /* background: linear-gradient(145deg, #25D366, #128C7E); */
     border: none;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     color: white;
-    font-size: 24px;
+    font-size: 6px;
     font-weight: bold;
     text-align: center;
     line-height: 50px;
     cursor: pointer;
-    box-shadow: 5px 5px 10px #128C7E,
-                -5px -5px 10px #25D366;
+    /* box-shadow: 5px 5px 10px #128C7E,
+                -5px -5px 10px #25D366; */
     transition: all 0.3s ease;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
