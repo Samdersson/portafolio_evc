@@ -1,0 +1,7 @@
+- [x] Agregar media query para dispositivos móviles (max-width: 768px)
+- [x] Hacer .contenedor responsivo (cambiar ancho fijo a max-width: 100%)
+- [x] Hacer .contenedor-alumbrado y .contenedor-plaza responsivos
+- [x] Ajustar posiciones de img.logo y img.logo-plaza para móviles
+- [x] Cambiar navegación a vertical en móviles
+- [x] Ajustar carrusel para móviles
+- [x] Verificar y ajustar botones fijos si es necesario
